@@ -9,25 +9,25 @@
 
 
 nav{
-	transition: all ease 2s;
+	transition: all ease 1s;
 }
 
 nav.shrink{
-	background-color: #000;
-	opacity: 0.65;
+	background-color: #3C4664;
+	opacity: 0.85;
 
-	transition: all ease 2s;
+	transition: all ease 1s;
 }
 
 
 nav.shrink .navbar-nav li a{
 	color: #fff;
-	transition: all ease 2s;
+	transition: all ease 1s;
 }
 
 nav.shrink .navbar-nav li a:hover{
 	color: #000;
-	transition: all ease 0.5s;
+	transition: all ease 0.25s;
 }
 
 .navbar-default{
@@ -45,19 +45,26 @@ nav.shrink .navbar-nav li a:hover{
 	background-color: #000;
 }
 
-.navbar-brand{
+nav.shrink .navbar-brand{
 	font-size: 20px;
-	color: #000 !important;
-	font-weight: bold;
+	color: #fff;
+	transition: all ease 1s;
+}
+
+.navbar .navbar-brand{
+	color: transparent;
+	font-size: 20px;
+	transition: all ease 1s;
 }
 
 .navbar-default .navbar-nav li a{
 	color: #000;
+	transition: all ease 1s;
 }
 
 .navbar-default .navbar-nav li a:hover{
 	color: #fff;
-	transition: all ease 0.5s;
+	transition: all ease 0.25s;
 }
 
 #Home{
@@ -114,13 +121,14 @@ nav.shrink .navbar-nav li a:hover{
 	}
 
 	nav.shrink{
-		background-color: #000;
-		opacity: 0.65;
+		background-color: #3C4664;
+		opacity: 0.85;
 	
 		transition: all ease 1s;
 	}
 	
 	
+
 	nav.shrink .navbar-nav li a{
 		color: #fff;
 		transition: all ease 1s;
@@ -128,7 +136,7 @@ nav.shrink .navbar-nav li a:hover{
 	
 	nav.shrink .navbar-nav li a:hover{
 		color: #000;
-		transition: all ease 0.5s;
+		transition: all ease 0.25s;
 	}
 
 	.navbar-default{
