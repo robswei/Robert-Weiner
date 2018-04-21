@@ -12,13 +12,6 @@
 	border: 0;
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar-default .navbar-collapse {
-        border: 0;
-		background-color: #dcdcdc;
-		opacity: 0.95;
-     } 
- }
 
 .navbar-default .navbar-toggle{
 	border: 0;
@@ -28,10 +21,6 @@
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #000;
 }
-
-.navbar-nav .open .dropdown-menu {
-    background-color:#fff;
-  }
 
 .navbar-brand{
 	font-size: 20px;
@@ -79,6 +68,28 @@
 .padding img{
 	width: 100%
 }
+
+@media only screen and (max-width: 768px) {
+	.navbar-default{
+		background-color: #3C4664;
+		opacity: 0.95;
+		border: 0;
+	}
+
+    .navbar-default .navbar-collapse {
+        border: 0;
+		background-color: #3C4664;
+		opacity: 0.95;
+	 } 
+	 
+	 .navbar-default .navbar-nav li a{
+		color: #fff;
+	}
+	
+	.navbar-default .navbar-nav li a:hover{
+		color: #000;
+	}
+ }
 
 
 /*--- iOS Landing Page Fix
