@@ -14,8 +14,9 @@
 
 @media only screen and (max-width: 768px) {
     .navbar-default .navbar-collapse {
-        border-color: #fff;
-        background-color: #dcdcdc;
+        border: 0;
+		background-color: #dcdcdc;
+		opacity: 0.95;
      } 
  }
 
@@ -43,11 +44,11 @@
 }
 
 .navbar-default .navbar-nav li a:hover{
-	color: #778899;
+	color: #fff;
 }
 
 #Home{
-	background: url(img/landing.jpeg) no-repeat center center fixed;
+	background: url(../img/landing.jpeg) no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	width: 100%;
