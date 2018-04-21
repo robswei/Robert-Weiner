@@ -77,6 +77,17 @@
 		background-attachment: scroll;
 	}
 
+	.landing-text h1{
+		font-size: 400%;
+		font-weight: 700;
+		top: 50%;
+		margin-top: 200px;
+	}
+	
+	.landing-text p{
+		font-size: 125%;
+	}
+
 	.navbar-default{
 		background-color: #3C4664;
 		opacity: 0.95;
