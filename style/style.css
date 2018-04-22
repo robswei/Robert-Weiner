@@ -76,7 +76,7 @@ nav.shrink .navbar-brand{
 	transition: all ease 0.25s;
 }
 
-#showcase{
+.main{
 	background: url(../img/landing.jpeg) no-repeat center center fixed;
 	display: table;
 	height: 100%;
@@ -176,7 +176,7 @@ footer hr{
 
 @media only screen and (max-width: 768px) {
 
-	#showcase{
+	.main, .edu, .exp{
 		background-attachment: scroll;
 	}
 
@@ -230,11 +230,6 @@ footer hr{
 	.navbar-default .navbar-nav li a:hover{
 		color: #222;
 	}
-
-	.edu, .exp{
-		background-attachment: scroll;
-	}
-
 
  }
 
