@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(window).scroll(function(){
-        if($(document).scrollTop() > 550) {
+        if($(document).scrollTop() > 500) {
             $('nav').addClass('shrink');
         }
         else{
