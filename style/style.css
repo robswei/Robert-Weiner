@@ -174,7 +174,7 @@ footer hr{
 	padding-bottom: 15px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 	#Home{
 		background-attachment: scroll;
