@@ -234,6 +234,10 @@ footer hr {
     color: #222;
   }
 
+  .ptext{
+    font-size: 20px;
+  }
+
   #apple {
     text-align: center;
   }
