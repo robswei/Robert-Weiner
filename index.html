@@ -4,7 +4,7 @@
 <head>
   <title>WebRob</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link href="style/style.css" rel="stylesheet" />
@@ -14,7 +14,7 @@
 
   <!--Navbar-->
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+    <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-main">
           <span class="icon-bar"></span>
@@ -32,7 +32,13 @@
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#experience">Experience & Hobbies</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -42,54 +48,143 @@
     </div>
   </nav>
 
-  <div id="Home">
+  <!--Showcase-->
+  <section id="showcase">
     <div class="landing-text">
       <h1>Robert Weiner</h1>
       <p>Version 1.2</p>
     </div>
+  </section>
+
+  <!--Single Column: About Me-->
+  <div class="padding" id="about">
+    <div class="container">
+      <div class="row text-center aboutMe">
+        <div class="col-12">
+          <h1 class="display-4">About Me</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, quia quidem in ducimus numquam dolore hic recusandae,
+            autem facere distinctio deserunt soluta cupiditate molestias. Ad unde, beatae ratione architecto laudantium quia
+            deserunt, eaque quibusdam nam minima voluptatum itaque error vel corporis, reprehenderit animi odit deleniti
+            quisquam perferendis? Recusandae magni dolores suscipit, ad, earum eos similique dicta, quisquam id hic ratione?
+            Harum molestiae excepturi sint, molestias beatae repellat accusamus autem enim aperiam rerum consequuntur officiis
+            neque suscipit nihil reprehenderit possimus doloremque. Earum nesciunt odit ex! Corrupti deleniti deserunt quo
+            optio labore commodi sapiente totam quae beatae! Vel quam incidunt eaque nulla.</p>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <!--Parallax Background-->
+  <!--Education-->
+  <div class="edu" id="education">
+    <div class="ptext">
+      <span class="border">
+        Education
+      </span>
+    </div>
+  </div>
+
 
   <div class="padding">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <img src="img/landing.jpeg">
-        </div>
-        <div class="col-sm-6 text-center">
-          <h2>About Me</h2>
+        <div class="col-sm-9 text-center">
+          <h2>University of Illinois
+            <br>at Urbana-Champaign</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nulla ducimus tempore laboriosam est quas?</p>
         </div>
+        <div class="col-sm-3">
+          <img src="img/blockI.png">
+        </div>
       </div>
+    </div>
+  </div>
+
+
+  <!--Experience-->
+  <div class="exp" id="experience">
+    <div class="ptext">
+      <span class="border">
+        Experience & Hobbies
+      </span>
     </div>
   </div>
 
   <div class="padding">
     <div class="container">
       <div class="row">
+          <div class="col-sm-6 text-center">
+              <h2>About Me</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nulla ducimus tempore laboriosam est quas?</p>
+            </div>
         <div class="col-sm-6">
           <img src="img/landing.jpeg">
-        </div>
-        <div class="col-sm-6 text-center">
-          <h2>About Me</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nulla ducimus tempore laboriosam est quas?</p>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <img src="img/landing.jpeg">
+
+  <!--Projects-->
+  <div class="padding" id="projects">
+      <div class="container">
+        <div class="row text-center aboutMe">
+          <div class="col-12">
+            <h1 class="display-4">Projects</h1>
+          </div>
+          <hr>
+          <div class="col-12">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, quia quidem in ducimus numquam dolore hic recusandae,
+              autem facere distinctio deserunt soluta cupiditate molestias. Ad unde, beatae ratione architecto laudantium quia
+              deserunt, eaque quibusdam nam minima voluptatum itaque error vel corporis, reprehenderit animi odit deleniti
+              quisquam perferendis? Recusandae magni dolores suscipit, ad, earum eos similique dicta, quisquam id hic ratione?
+              Harum molestiae excepturi sint, molestias beatae repellat accusamus autem enim aperiam rerum consequuntur officiis
+              neque suscipit nihil reprehenderit possimus doloremque. Earum nesciunt odit ex! Corrupti deleniti deserunt quo
+              optio labore commodi sapiente totam quae beatae! Vel quam incidunt eaque nulla.</p>
+
+              <a href="https://rtweine2.github.io/RobWeb/"><button class="btn btn-default">Other Website</button></a>
+
+          </div>
         </div>
-        <div class="col-sm-6 text-center">
-          <h2>About Me</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nulla ducimus tempore laboriosam est quas?</p>
+      </div>
+    </div>
+
+  <!--Contact-->
+  <div class="padding" id="contact">
+    <div class="container">
+      <div class="row text-center padding">
+        <div class="col-12">
+          <h2>Contact</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a href="#">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-github"></i>
+          </a>
         </div>
       </div>
     </div>
   </div>
+
+
+  <!--Footer-->
+  <footer>
+    <hr>
+    <div class="padding-foot">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-12">
+            <h5>WebRob &copy; 2018</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <!-- jQuery -->

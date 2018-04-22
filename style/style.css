@@ -26,8 +26,13 @@ nav.shrink .navbar-nav li a{
 }
 
 nav.shrink .navbar-nav li a:hover{
-	color: #000;
+	color: #222;
 	transition: all ease 0.25s;
+}
+
+
+.navbar-nav li{
+	padding-right: 5px;
 }
 
 .navbar-default{
@@ -38,16 +43,16 @@ nav.shrink .navbar-nav li a:hover{
 
 .navbar-default .navbar-toggle{
 	border: 0;
-	background-color: #fff;
+	background-color: #eee;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #000;
+	background-color: #222;
 }
 
 nav.shrink .navbar-brand{
 	font-size: 20px;
-	color: #fff;
+	color: #eee;
 	transition: all ease 1s;
 }
 
@@ -57,17 +62,21 @@ nav.shrink .navbar-brand{
 	transition: all ease 1s;
 }
 
+.navbar .navbar-brand:hover{
+	color: transparent;
+}
+
 .navbar-default .navbar-nav li a{
-	color: #000;
+	color: #222;
 	transition: all ease 1s;
 }
 
 .navbar-default .navbar-nav li a:hover{
-	color: #fff;
+	color: #eee;
 	transition: all ease 0.25s;
 }
 
-#Home{
+#showcase{
 	background: url(../img/landing.jpeg) no-repeat center center fixed;
 	display: table;
 	height: 100%;
@@ -84,7 +93,6 @@ nav.shrink .navbar-brand{
 .landing-text h1{
 	font-size: 500%;
 	font-weight: 700;
-	top: 50%;
 	margin-top: 200px;
 }
 
@@ -101,8 +109,72 @@ nav.shrink .navbar-brand{
 	width: 100%
 }
 
+.aboutMe{
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
 
-@media only screen and (max-width: 768px) {
+.aboutMe hr{
+	border-top: 2px solid #3C4664;
+	width: 95%;
+}
+
+.edu, .exp, .project{
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+
+	
+}
+
+.edu{
+	background-image: url("../img/education.jpeg");
+	min-height: 200px;
+}
+
+.exp{
+	background-image: url("../img/experience.png");
+	min-height: 200px;
+}
+
+.project{
+	background-image: url("../img/experience.png");
+	min-height: 200px;
+}
+
+.ptext{
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	color: #eee;
+	font-size: 27px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+
+	font-weight: 500;
+}
+
+footer{
+	background-color: #3C4664;
+	color: #eee;
+}
+
+footer hr{
+	border-top: 2px solid #3C4664;
+	width: 75%;
+}
+
+.padding-foot{
+	padding-bottom: 15px;
+}
+
+@media (max-width: 568px) {
 
 	#Home{
 		background-attachment: scroll;
@@ -130,12 +202,12 @@ nav.shrink .navbar-brand{
 	
 
 	nav.shrink .navbar-nav li a{
-		color: #fff;
+		color: #eee;
 		transition: all ease 1s;
 	}
 	
 	nav.shrink .navbar-nav li a:hover{
-		color: #000;
+		color: #222;
 		transition: all ease 0.25s;
 	}
 
@@ -152,12 +224,18 @@ nav.shrink .navbar-brand{
 	 } 
 	 
 	 .navbar-default .navbar-nav li a{
-		color: #fff;
+		color: #eee;
 	}
 	
 	.navbar-default .navbar-nav li a:hover{
-		color: #000;
+		color: #222;
 	}
+
+	.edu, .exp{
+		background-attachment: scroll;
+	}
+
+
  }
 
 
