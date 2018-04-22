@@ -1,238 +1,257 @@
-﻿html, body{
-	height: 100%;
-	width: 100%;
+﻿html,
+body {
+  height: 100%;
+  width: 100%;
 
-	background-color: #dcdcdc;
+  background-color: #fff;
 
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
-nav{
-	transition: all ease 1s;
+nav {
+  transition: all ease 1s;
 }
 
-nav.shrink{
-	background-color: #3C4664;
-	opacity: 0.85;
+nav.shrink {
+  background-color: #3c4664;
+  opacity: 0.85;
 
-	transition: all ease 1s;
+  transition: all ease 1s;
 }
 
-
-nav.shrink .navbar-nav li a{
-	color: #fff;
-	transition: all ease 1s;
+nav.shrink .navbar-nav li a {
+  color: #fff;
+  transition: all ease 1s;
 }
 
-nav.shrink .navbar-nav li a:hover{
-	color: #222;
-	transition: all ease 0.25s;
+nav.shrink .navbar-nav li a:hover {
+  color: #222;
+  transition: all ease 0.25s;
 }
 
-
-.navbar-nav li{
-	padding-right: 5px;
+.navbar-nav li {
+  padding-right: 5px;
 }
 
-.navbar-default{
-	background-color: transparent;
-	border: 0;
+.navbar-default {
+  background-color: transparent;
+  border: 0;
 }
 
-
-.navbar-default .navbar-toggle{
-	border: 0;
-	background-color: #eee;
+.navbar-default .navbar-toggle {
+  border: 0;
+  background-color: #eee;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #222;
+  background-color: #222;
 }
 
-nav.shrink .navbar-brand{
-	font-size: 20px;
-	color: #eee;
-	transition: all ease 1s;
+nav.shrink .navbar-brand {
+  font-size: 20px;
+  color: #eee;
+  transition: all ease 1s;
 }
 
-.navbar .navbar-brand{
-	color: transparent;
-	font-size: 20px;
-	transition: all ease 1s;
+.navbar .navbar-brand {
+  color: transparent;
+  font-size: 20px;
+  transition: all ease 1s;
 }
 
-.navbar .navbar-brand:hover{
-	color: transparent;
+.navbar .navbar-brand:hover {
+  color: transparent;
 }
 
-.navbar-default .navbar-nav li a{
-	color: #222;
-	transition: all ease 1s;
+.navbar-default .navbar-nav li a {
+  color: #222;
+  transition: all ease 1s;
 }
 
-.navbar-default .navbar-nav li a:hover{
-	color: #eee;
-	transition: all ease 0.25s;
+.navbar-default .navbar-nav li a:hover {
+  color: #eee;
+  transition: all ease 0.25s;
 }
 
-.main{
-	background: url(../img/landing.jpeg) no-repeat center center fixed;
-	display: table;
-	height: 100%;
-	width: 100%;
-	position: relative;
-	background-size: cover;
+.main {
+  background: url(../img/landing.jpeg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
 }
 
-.landing-text{
-	display: table-cell;
-	text-align: center;
+.landing-text {
+  display: table-cell;
+  text-align: center;
 }
 
-.landing-text h1{
-	font-size: 500%;
-	font-weight: 700;
-	margin-top: 200px;
+.landing-text h1 {
+  font-size: 500%;
+  font-weight: 700;
+  margin-top: 200px;
 }
 
-.landing-text p{
-	font-size: 150%;
+.landing-text p {
+  font-size: 150%;
 }
 
-
-.padding{
-	padding: 80px 0;
+.padding {
+  padding: 80px 0;
 }
 
-.padding img{
-	width: 100%
+.padding img {
+  width: 100%;
 }
 
-.aboutMe{
-	width: 85%;
-	margin: 0 auto;
-	padding-top: 2rem;
+.aboutMe {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
-.aboutMe hr{
-	border-top: 2px solid #3C4664;
-	width: 95%;
+.aboutMe hr {
+  border-top: 2px solid #3c4664;
+  width: 95%;
 }
 
-.edu, .exp, .project{
-	position: relative;
-	opacity: 0.7;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-
-	background-attachment: fixed;
-
-	
+.upper {
+  border-top: 2px solid #3c4664;
+  width: 100%;
 }
 
-.edu{
-	background-image: url("../img/education.jpeg");
-	min-height: 200px;
+#robot .mid {
+  border: 0;
 }
 
-.exp{
-	background-image: url("../img/experience.png");
-	min-height: 200px;
+.exp,
+.project {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
 }
 
-.project{
-	background-image: url("../img/experience.png");
-	min-height: 200px;
+.exp {
+  background-image: url("../img/experience.png");
+  min-height: 200px;
 }
 
-.ptext{
-	position: absolute;
-	top: 45%;
-	width: 100%;
-	text-align: center;
-	color: #eee;
-	font-size: 27px;
-	letter-spacing: 4px;
-	text-transform: uppercase;
-
-	font-weight: 500;
+.project {
+  background-image: url("../img/experience.png");
+  min-height: 200px;
 }
 
-footer{
-	background-color: #3C4664;
-	color: #eee;
+.ptext {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #eee;
+  font-size: 27px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  font-weight: 500;
 }
 
-footer hr{
-	border-top: 2px solid #3C4664;
-	width: 75%;
+#contact a {
+  font-size: 32px;
+  padding: 0 10px;
 }
 
-.padding-foot{
-	padding-bottom: 15px;
+footer {
+  background-color: #3c4664;
+  color: #eee;
+}
+
+footer hr {
+  border-top: 2px solid #3c4664;
+  width: 75%;
+}
+
+.padding-foot {
+  padding-bottom: 15px;
 }
 
 @media only screen and (max-width: 768px) {
+  .main,
+  .exp {
+    background-attachment: scroll;
+  }
 
-	.main, .edu, .exp{
-		background-attachment: scroll;
-	}
+  .landing-text h1 {
+    font-size: 300%;
+    font-weight: 700;
+    top: 50%;
+    margin-top: 200px;
+  }
 
-	.landing-text h1{
-		font-size: 300%;
-		font-weight: 700;
-		top: 50%;
-		margin-top: 200px;
-	}
-	
-	.landing-text p{
-		font-size: 125%;
-		font-weight: 500;
-	}
+  .landing-text p {
+    font-size: 125%;
+    font-weight: 500;
+  }
 
-	nav.shrink{
-		background-color: #3C4664;
-		opacity: 0.85;
-	
-		transition: all ease 1s;
-	}
-	
-	
+  nav.shrink {
+    background-color: #3c4664;
+    opacity: 0.85;
 
-	nav.shrink .navbar-nav li a{
-		color: #eee;
-		transition: all ease 1s;
-	}
-	
-	nav.shrink .navbar-nav li a:hover{
-		color: #222;
-		transition: all ease 0.25s;
-	}
+    transition: all ease 1s;
+  }
 
-	.navbar-default{
-		background-color: transparent;
-		opacity: 0.95;
-		border: 0;
-	}
+  nav.shrink .navbar-nav li a {
+    color: #eee;
+    transition: all ease 1s;
+  }
 
-    .navbar-default .navbar-collapse {
-        border: 0;
-		background-color: transparent;
-		opacity: 0.95;
-	 } 
-	 
-	 .navbar-default .navbar-nav li a{
-		color: #eee;
-	}
-	
-	.navbar-default .navbar-nav li a:hover{
-		color: #222;
-	}
+  nav.shrink .navbar-nav li a:hover {
+    color: #222;
+    transition: all ease 0.25s;
+  }
 
- }
+  .navbar-default {
+    background-color: transparent;
+    opacity: 0.95;
+    border: 0;
+  }
 
+  .navbar-default .navbar-collapse {
+    border: 0;
+    background-color: transparent;
+    opacity: 0.95;
+  }
+
+  .navbar-default .navbar-nav li a {
+    color: #eee;
+  }
+
+  .navbar-default .navbar-nav li a:hover {
+    color: #222;
+  }
+
+  #apple {
+    text-align: center;
+  }
+
+  #robot .mid {
+    border-top: 2px solid #3c4664;
+    width: 15%;
+  }
+
+  .display-4 {
+	font-size: 24px;
+	text-align: center;
+  }
+
+  #pred-tet {
+    width: 85%;
+  }
+}
 
 /*--- iOS Landing Page Fix
 section {
@@ -301,4 +320,3 @@ figure {
 	will-change: transform;
 }
 --*/
-
