@@ -151,11 +151,6 @@ nav.shrink .navbar-brand {
   min-height: 200px;
 }
 
-.robot {
-  width: 85%;
-  margin: 0 auto;
-  padding-top: 2rem;
-}
 
 .ptext {
   position: absolute;
@@ -168,6 +163,10 @@ nav.shrink .navbar-brand {
   text-transform: uppercase;
 
   font-weight: 500;
+}
+
+#contact{
+  background-color: #dcdcdc;
 }
 
 #contact a {
