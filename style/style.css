@@ -126,6 +126,10 @@ nav.shrink .navbar-brand {
   border: 0;
 }
 
+.pad{
+  padding-bottom: 15px;
+}
+
 .exp,
 .project {
   position: relative;
@@ -145,6 +149,12 @@ nav.shrink .navbar-brand {
 .project {
   background-image: url("../img/experience.png");
   min-height: 200px;
+}
+
+.robot {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 .ptext {
@@ -197,6 +207,7 @@ footer hr {
     font-weight: 500;
   }
 
+  
   nav.shrink {
     background-color: #3c4664;
     opacity: 0.85;
@@ -215,14 +226,14 @@ footer hr {
   }
 
   .navbar-default {
-    background-color: transparent;
+    background-color: #3c4664;
     opacity: 0.95;
     border: 0;
   }
 
   .navbar-default .navbar-collapse {
     border: 0;
-    background-color: transparent;
+    background-color: #3c4664;
     opacity: 0.95;
   }
 
@@ -235,7 +246,7 @@ footer hr {
   }
 
   .ptext{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #apple {
@@ -245,6 +256,14 @@ footer hr {
   #robot .mid {
     border-top: 2px solid #3c4664;
     width: 15%;
+  }
+
+  .upper{
+    width: 85%;
+  }
+
+  .pad{
+    padding-bottom: 0;
   }
 
   .display-4 {
