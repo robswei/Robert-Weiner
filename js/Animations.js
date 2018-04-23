@@ -45,7 +45,7 @@ window.sr = ScrollReveal();
       distance: '300px'
     });
     sr.reveal('.rob15', {
-      duration: 3000,
+      duration: 2000,
       origin: 'bottom',
       distance: '300px',
     });
@@ -56,7 +56,7 @@ window.sr = ScrollReveal();
       viewFactor: 0.75
     });
     sr.reveal('.rob16', {
-      duration: 3000,
+      duration: 2000,
       delay: 250,
       origin: 'bottom',
       distance: '300px',
