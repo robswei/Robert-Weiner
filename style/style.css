@@ -99,7 +99,7 @@ nav.shrink .navbar-brand {
 }
 
 .padding {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .padding img {
@@ -142,15 +142,14 @@ nav.shrink .navbar-brand {
 }
 
 .exp {
-  background-image: url("../img/experience.png");
+  background-image: url("../img/experience.jpeg");
   min-height: 200px;
 }
 
 .project {
-  background-image: url("../img/experience.png");
+  background-image: url("../img/projects.png");
   min-height: 200px;
 }
-
 
 .ptext {
   position: absolute;
@@ -163,6 +162,18 @@ nav.shrink .navbar-brand {
   text-transform: uppercase;
 
   font-weight: 500;
+}
+
+.exp .ptext{
+  color: #222;
+}
+
+#pred-tet .center{
+  text-align: center;
+}
+
+#pred-tet .right{
+  text-align: right;
 }
 
 #contact{
@@ -188,7 +199,8 @@ footer hr {
 
 @media only screen and (max-width: 768px) {
   .main,
-  .exp {
+  .exp,
+  .project {
     background-attachment: scroll;
   }
 
@@ -246,10 +258,6 @@ footer hr {
     font-size: 18px;
   }
 
-  #apple {
-    text-align: center;
-  }
-
   #robot .mid {
     border-top: 2px solid #3c4664;
     width: 15%;
@@ -270,6 +278,13 @@ footer hr {
 
   #pred-tet {
     width: 85%;
+  }
+
+  #pred-tet .right,
+  #pred-tet .center, 
+  #pred-tet .left {
+    text-align: center;
+    padding: 30px;
   }
 }
 
