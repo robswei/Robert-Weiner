@@ -99,7 +99,7 @@ nav.shrink .navbar-brand {
 }
 
 .padding {
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .padding img {
@@ -167,6 +167,12 @@ nav.shrink .navbar-brand {
 .exp .ptext{
   color: #222;
 }
+
+#work, #robot{
+  padding-bottom: 20%;
+}
+
+
 
 #pred-tet .center{
   text-align: center;
@@ -274,6 +280,19 @@ footer hr {
   .display-4 {
 	font-size: 24px;
 	text-align: center;
+  }
+
+  #work, #robot{
+    padding-bottom: 5%;
+  }
+
+  #maker h2,
+  #maker p{
+    text-align: center;
+  }
+
+  #maker img{
+    width: 75%;
   }
 
   #pred-tet {
