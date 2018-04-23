@@ -1,7 +1,12 @@
 {
     "particles":{
       "number":{
-        "value":75
+        "value":75,
+        "density":{
+            "enable": true,
+            "value_area": 800
+        }
+
       },
       "color":{
         "value":"#eee"
@@ -14,12 +19,12 @@
         }
       },
       "opacity":{
-        "value":0.25,
-        "random":true
+        "value":0.5,
+        "random":false
       },
       "size":{
-        "value": 5,
-        "random":false,
+        "value": 3,
+        "random":true,
         "anim":{
           "enable": false,
           "speed":30
@@ -27,13 +32,14 @@
       },
       "line_linked":{
         "enable": true,
-        "distance": 120,
-        "color":"#fff",
+        "distance": 150,
+        "color":"#eee",
+        "opacity": 0.4,
         "width":1
       },
       "move":{
         "enable":true,
-        "speed":0.5,
+        "speed":1,
         "direction":"none",
         "straight":false
       }
@@ -41,8 +47,8 @@
     "interactivity":{
       "events":{
         "onhover":{
-          "enable":false,
-          "mode":"repulse"
+          "enable":true,
+          "mode":"grab"
         },
         "onclick":{
           "enable": false,
@@ -57,7 +63,13 @@
         "bubble":{
           "distance":100,
           "size":10
-        }
+        },
+        "grab":{
+            "distance":200,
+            "line_linked": {
+                "opacity": 0.75
+              }
+          }
       }
     }
   }
