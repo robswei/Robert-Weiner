@@ -1,9 +1,14 @@
 window.sr = ScrollReveal();
 
     //Opening Animations
-    sr.reveal('.landing-text', {
-      duration: 2000,
+    sr.reveal('.name', {
+      duration:3000,
+      origin: 'bottom'
+    });
+    sr.reveal('.sum', {
+      duration:3000,
       origin: 'bottom',
+      distance: '100px'
     });
     sr.reveal('.abt', {
       duration: 2000,
