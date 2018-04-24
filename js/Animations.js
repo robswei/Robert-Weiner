@@ -129,24 +129,12 @@ sr.reveal(".rightButton", {
   origin: "bottom",
   distance: "300px"
 });
-sr.reveal(".projanim1", {
-  duration: 2000,
-  delay: 750,
-  origin: "bottom",
-  distance: "300px"
-});
 sr.reveal(".tetris", {
   duration: 2000,
   delay: 500,
   origin: "bottom"
 });
 sr.reveal(".gitButton1", {
-  duration: 2000,
-  delay: 250,
-  origin: "bottom",
-  distance: "300px"
-});
-sr.reveal(".projanim2", {
   duration: 2000,
   delay: 250,
   origin: "bottom",
