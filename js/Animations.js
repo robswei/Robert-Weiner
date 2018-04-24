@@ -78,7 +78,7 @@ sr.reveal(".rob17", {
 });
 sr.reveal("#robotCar", {
   duration: 3000,
-  delay: 500,
+  delay: 250,
   origin: "bottom",
   distance: "300px"
 });
@@ -106,6 +106,7 @@ sr.reveal(".quad", {
 });
 sr.reveal(".quadpic", {
   duration: 2000,
+  delay: 200,
   origin: "bottom",
   distance: "300px"
 });
