@@ -135,16 +135,15 @@ nav.shrink .navbar-brand {
 }
 
 .pad {
-  padding-bottom: 2.5%;
+  padding-bottom: 0%;
 }
 
 .carPadding {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
-#work,
-#maker {
-  padding-bottom: 15%;
+#work{
+  padding-bottom: 20%;
 }
 
 .exp,
@@ -228,7 +227,7 @@ nav.shrink .navbar-brand {
   color: #222;
   position: static;
   max-width: 550px;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 0 auto;
   margin-top: 0;
   text-align: center;
@@ -236,7 +235,7 @@ nav.shrink .navbar-brand {
 }
 
 .carousel-caption h3 {
-  margin: 25px;
+  margin: 5px;
   line-height: 1.25;
   color: #000;
   text-shadow: none;
@@ -252,12 +251,6 @@ nav.shrink .navbar-brand {
   z-index: 5;
   display: inline-block;
   color: #3c4664;
-}
-.carousel .carousel-control {
-  visibility: hidden;
-}
-.carousel:hover .carousel-control {
-  visibility: visible;
 }
 
 #pred-tet .center {
@@ -306,22 +299,6 @@ footer hr {
   #main h1 {
     font-size: 300%;
   }
-
-  /*
-  #main h1 {
-    font-size: 300%;
-    font-weight: 700;
-    top: 50%;
-    margin-top: 200px;
-    padding-left: 10%
-  }
-
-  
-  #main p {
-    font-size: 125%;
-    font-weight: 500;
-  }
-*/
 
   nav.shrink {
     background-color: #3c4664;
@@ -382,16 +359,18 @@ footer hr {
     text-align: center;
   }
 
+  #work{
+    padding-bottom: 5%;
+  }
+
   .apple p,
   .park p {
     text-align: justify;
     padding: 0 5%;
   }
 
-  #work,
-  #robot,
-  #maker {
-    padding-bottom: 5%;
+  #robot {
+    padding-bottom: 15%;
   }
 
   .rob15 p,
@@ -408,10 +387,6 @@ footer hr {
   #maker p {
     text-align: justify;
     padding: 0 5%;
-  }
-
-  #maker img {
-    width: 75%;
   }
 
   #pred-tet {
@@ -432,7 +407,7 @@ footer hr {
   }
 
   .carousel-caption h3 {
-    margin: 25px;
+    margin: 0px;
     line-height: 1.25;
     color: #000;
     text-shadow: none;

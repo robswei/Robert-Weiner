@@ -71,13 +71,13 @@ sr.reveal(".hranim3", {
   distance: "300px"
 });
 sr.reveal(".rob17", {
-  duration: 3000,
+  duration: 2000,
   delay: 500,
   origin: "bottom",
   distance: "300px"
 });
 sr.reveal("#robotCar", {
-  duration: 3000,
+  duration: 2000,
   delay: 250,
   origin: "bottom",
   distance: "300px"
@@ -119,15 +119,15 @@ sr.reveal(".pred", {
 });
 sr.reveal(".leftButton", {
   duration: 2000,
-  delay: 500,
+  //delay: 500,
   origin: "bottom",
-  distance: "300px"
+  distance: "100px"
 });
 sr.reveal(".rightButton", {
   duration: 2000,
-  delay: 750,
+  //delay: 750,
   origin: "bottom",
-  distance: "300px"
+  distance: "100px"
 });
 sr.reveal(".tetris", {
   duration: 2000,
@@ -136,9 +136,9 @@ sr.reveal(".tetris", {
 });
 sr.reveal(".gitButton1", {
   duration: 2000,
-  delay: 250,
+  //delay: 250,
   origin: "bottom",
-  distance: "300px"
+  distance: "100px"
 });
 sr.reveal(".mrdcrobots", {
   duration: 2000,
@@ -147,7 +147,7 @@ sr.reveal(".mrdcrobots", {
 sr.reveal(".gitButton2", {
   duration: 2000,
   origin: "bottom",
-  distance: "300px"
+  distance: "100px"
 });
 
 //Connect Animations
