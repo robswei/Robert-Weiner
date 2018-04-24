@@ -247,17 +247,17 @@ nav.shrink .navbar-brand {
 .carousel-control.right {
   background: none !important;
   filter: none !important;
+  position: absolute;
+  top: 50%; /* pushes the icon in the middle of the height */
+  z-index: 5;
+  display: inline-block;
+  color: #3c4664;
 }
 .carousel .carousel-control {
   visibility: hidden;
 }
 .carousel:hover .carousel-control {
   visibility: visible;
-}
-
-.glyphicon.glyphicon-chevron-right,
-.glyphicon.glyphicon-chevron-left {
-  color: #3c4664;
 }
 
 #pred-tet .center {
@@ -431,8 +431,17 @@ footer hr {
     text-align: justify;
   }
 
-  .glyphicon.glyphicon-chevron-right,
-  .glyphicon.glyphicon-chevron-left {
+  .carousel-caption h3 {
+    margin: 25px;
+    line-height: 1.25;
+    color: #000;
+    text-shadow: none;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  #robCarousel .carousel-control.left,
+  #robCarousel .carousel-control.right {
     color: #fff;
   }
 }
