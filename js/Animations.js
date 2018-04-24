@@ -113,9 +113,8 @@ sr.reveal(".quadpic", {
 //Projects Animation
 sr.reveal(".pred", {
   duration: 2000,
-  delay: 500,
-  origin: "bottom",
-  distance: "500px"
+  delay: 750,
+  origin: "bottom"
 });
 sr.reveal(".leftButton", {
   duration: 2000,
@@ -137,9 +136,8 @@ sr.reveal(".projanim1", {
 });
 sr.reveal(".tetris", {
   duration: 2000,
-  delay: 250,
-  origin: "bottom",
-  distance: "500px"
+  delay: 500,
+  origin: "bottom"
 });
 sr.reveal(".gitButton1", {
   duration: 2000,
@@ -155,8 +153,7 @@ sr.reveal(".projanim2", {
 });
 sr.reveal(".mrdcrobots", {
   duration: 2000,
-  origin: "bottom",
-  distance: "500px"
+  origin: "bottom"
 });
 sr.reveal(".gitButton2", {
   duration: 2000,
