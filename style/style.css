@@ -138,11 +138,12 @@ nav.shrink .navbar-brand {
   padding-bottom: 2.5%;
 }
 
-.carPadding{
+.carPadding {
   padding-bottom: 10%;
 }
 
-#work, #maker{
+#work,
+#maker {
   padding-bottom: 15%;
 }
 
@@ -189,6 +190,10 @@ nav.shrink .navbar-brand {
   text-align: center;
 }
 
+#robCarousel {
+  background-color: transparent;
+}
+
 .carousel-indicators {
   position: absolute;
   bottom: -50px;
@@ -216,10 +221,43 @@ nav.shrink .navbar-brand {
   height: 12px;
 }
 
-#QuadCarousel h3{
+.carousel-caption {
+  background-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #222;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: static;
+  max-width: 550px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 0;
+  text-align: center;
+  text-shadow: transparent;
+}
+
+.carousel-caption h3 {
+  margin: 25px;
+  line-height: 1.25;
+  color: #000;
+  text-shadow: none;
   font-weight: 400;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background: none !important;
+  filter: none !important;
+}
+.carousel .carousel-control {
+  visibility: hidden;
+}
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
+
+.glyphicon.glyphicon-chevron-right,
+.glyphicon.glyphicon-chevron-left {
+  color: #3c4664;
 }
 
 #pred-tet .center {
@@ -323,7 +361,7 @@ footer hr {
   }
 
   .ptext {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .mid {
@@ -391,5 +429,10 @@ footer hr {
   .tetris p,
   .mrdcrobots p {
     text-align: justify;
+  }
+
+  .glyphicon.glyphicon-chevron-right,
+  .glyphicon.glyphicon-chevron-left {
+    color: #fff;
   }
 }
