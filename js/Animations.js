@@ -57,8 +57,7 @@ sr.reveal(".rob15", {
 sr.reveal(".hranim2", {
   duration: 2000,
   origin: "bottom",
-  distance: "300px",
-  viewFactor: 0.75
+  distance: "300px"
 });
 sr.reveal(".rob16", {
   duration: 2000,
@@ -69,8 +68,7 @@ sr.reveal(".rob16", {
 sr.reveal(".hranim3", {
   duration: 2000,
   origin: "bottom",
-  distance: "300px",
-  viewFactor: 0.75
+  distance: "300px"
 });
 sr.reveal(".rob17", {
   duration: 3000,
@@ -78,15 +76,23 @@ sr.reveal(".rob17", {
   origin: "bottom",
   distance: "300px"
 });
+sr.reveal("#robotCar", {
+  duration: 3000,
+  delay: 500,
+  origin: "bottom",
+  distance: "300px"
+});
 sr.reveal(".makers", {
   duration: 2000,
-  origin: "top",
-  viewFactor: 1
+  delay: 250,
+  origin: "bottom",
+  viewFactor: 0.25
 });
 sr.reveal(".creative", {
   duration: 2000,
-  origin: "top",
-  viewFactor: 1
+  delay: 250,
+  origin: "bottom",
+  viewFactor: 0.25
 });
 sr.reveal(".hranim4", {
   duration: 2000,
@@ -123,6 +129,12 @@ sr.reveal(".rightButton", {
   origin: "bottom",
   distance: "300px"
 });
+sr.reveal(".projanim1", {
+  duration: 2000,
+  delay: 750,
+  origin: "bottom",
+  distance: "300px"
+});
 sr.reveal(".tetris", {
   duration: 2000,
   delay: 250,
@@ -130,6 +142,12 @@ sr.reveal(".tetris", {
   distance: "500px"
 });
 sr.reveal(".gitButton1", {
+  duration: 2000,
+  delay: 250,
+  origin: "bottom",
+  distance: "300px"
+});
+sr.reveal(".projanim2", {
   duration: 2000,
   delay: 250,
   origin: "bottom",

@@ -9,8 +9,6 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
-
 nav {
   transition: all ease 1s;
 }
@@ -76,19 +74,13 @@ nav.shrink .navbar-brand {
   transition: all ease 0.25s;
 }
 
-
-
-
-
-
-
-#particles-js{
+#particles-js {
   background: #3c4664; /*no-repeat center center fixed;*/
   height: 100%;
   width: 100%;
 }
 
-#main{
+#main {
   text-align: left;
   position: absolute;
   color: #eee;
@@ -101,7 +93,6 @@ nav.shrink .navbar-brand {
   font-size: 500%;
   font-weight: 600;
 }
-
 
 #main p {
   font-size: 150%;
@@ -121,6 +112,10 @@ nav.shrink .navbar-brand {
   padding-top: 2rem;
 }
 
+.abtText {
+  text-align: justify;
+}
+
 .aboutMe hr {
   border-top: 2px solid #3c4664;
   width: 95%;
@@ -131,12 +126,24 @@ nav.shrink .navbar-brand {
   width: 100%;
 }
 
-#robot .mid {
+.mid {
   border: 0;
 }
 
-.pad{
+#maker .quad {
+  text-align: left;
+}
+
+.pad {
   padding-bottom: 2.5%;
+}
+
+.carPadding{
+  padding-bottom: 10%;
+}
+
+#work, #maker{
+  padding-bottom: 15%;
 }
 
 .exp,
@@ -173,31 +180,61 @@ nav.shrink .navbar-brand {
   font-weight: 500;
 }
 
-.exp .ptext{
+.exp .ptext {
   color: #222;
 }
 
-#work{
-  padding-bottom: 25%;
-}
-
-#robot{
-  padding-bottom: 10%;
-}
-
-#pred-tet .center{
+.apple,
+.park {
   text-align: center;
 }
 
-#pred-tet .right{
+.carousel-indicators {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  border-radius: 10px;
+  margin: 1px 3px;
+  height: 10px;
+  max-width: 10px;
+  border: 1px solid #222;
+  background-color: transparent;
+}
+.carousel-indicators .active {
+  background-color: #3c4664;
+  max-width: 12px;
+  margin: 0 3px;
+  height: 12px;
+}
+
+#QuadCarousel h3{
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+#pred-tet .center {
+  text-align: center;
+}
+
+#pred-tet .right {
   text-align: right;
 }
 
-.rightButton{
+.rightButton {
   padding-top: 15px;
 }
 
-#connect{
+#connect {
   background-color: #dcdcdc;
 }
 
@@ -206,7 +243,7 @@ nav.shrink .navbar-brand {
   padding: 0 15px;
 }
 
-#connect .social{
+#connect .social {
   padding: 15px;
 }
 
@@ -221,7 +258,6 @@ footer hr {
   width: 75%;
 }
 
-
 @media only screen and (max-width: 768px) {
   .main,
   .exp,
@@ -229,7 +265,7 @@ footer hr {
     background-attachment: scroll;
   }
 
-  #main h1{
+  #main h1, {
     font-size: 300%;
   }
 
@@ -248,7 +284,7 @@ footer hr {
     font-weight: 500;
   }
 */
-  
+
   nav.shrink {
     background-color: #3c4664;
     opacity: 0.85;
@@ -286,39 +322,57 @@ footer hr {
     color: #222;
   }
 
-  .ptext{
-    font-size: 18px;
+  .ptext {
+    font-size: 24px;
   }
 
-  #robot .mid {
+  .mid {
     border-top: 2px solid #3c4664;
     width: 15%;
   }
 
-  .upper{
+  .upper {
     width: 85%;
   }
 
-  
-  .pad{
+  .pad {
     padding-bottom: 0;
   }
 
   .display-4 {
-	font-size: 24px;
-	text-align: center;
-  }
-
-  #work, #robot{
-    padding-bottom: 5%;
-  }
-
-  #maker h2,
-  #maker p{
+    font-size: 24px;
     text-align: center;
   }
 
-  #maker img{
+  .apple p,
+  .park p {
+    text-align: justify;
+    padding: 0 5%;
+  }
+
+  #work,
+  #robot,
+  #maker {
+    padding-bottom: 5%;
+  }
+
+  .rob15 p,
+  .rob16 p,
+  .rob17 p {
+    text-align: justify;
+    padding: 0 5%;
+  }
+
+  #maker h2 {
+    text-align: center;
+  }
+
+  #maker p {
+    text-align: justify;
+    padding: 0 5%;
+  }
+
+  #maker img {
     width: 75%;
   }
 
@@ -327,11 +381,15 @@ footer hr {
   }
 
   #pred-tet .right,
-  #pred-tet .center, 
+  #pred-tet .center,
   #pred-tet .left {
     text-align: center;
     padding: 30px;
   }
 
-  
+  .pred p,
+  .tetris p,
+  .mrdcrobots p {
+    text-align: justify;
+  }
 }

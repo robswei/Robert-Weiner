@@ -1,6 +1,6 @@
 $(function() {
   // Smooth Scrolling
-  $('a[href*="#"]:not([href="#"])').click(function() {
+  $('a[href*="#"]:not([href="#"], .carousel a)').click(function() {
     if (
       location.pathname.replace(/^\//, "") ==
         this.pathname.replace(/^\//, "") &&
