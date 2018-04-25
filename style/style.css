@@ -130,6 +130,10 @@ nav.shrink .navbar-brand {
   border: 0;
 }
 
+#robot li{
+  font-size: 100px;
+}
+
 #maker .quad {
   text-align: left;
 }
