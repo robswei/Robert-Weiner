@@ -26,6 +26,10 @@ sr.reveal(".abtText", {
 });
 
 //Experience Animations
+sr.reveal(".exp", {
+  duration: 2000,
+  origin: "bottom"
+});
 sr.reveal(".apple", {
   duration: 2000,
   origin: "bottom"
@@ -112,6 +116,10 @@ sr.reveal(".quadpic", {
 });
 
 //Projects Animation
+sr.reveal(".project", {
+  duration: 2000,
+  origin: "bottom"
+});
 sr.reveal(".pred", {
   duration: 2000,
   delay: 750,
@@ -119,13 +127,11 @@ sr.reveal(".pred", {
 });
 sr.reveal(".leftButton", {
   duration: 2000,
-  //delay: 500,
   origin: "bottom",
   distance: "100px"
 });
 sr.reveal(".rightButton", {
   duration: 2000,
-  //delay: 750,
   origin: "bottom",
   distance: "100px"
 });
@@ -136,7 +142,6 @@ sr.reveal(".tetris", {
 });
 sr.reveal(".gitButton1", {
   duration: 2000,
-  //delay: 250,
   origin: "bottom",
   distance: "100px"
 });
