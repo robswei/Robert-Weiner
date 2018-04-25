@@ -189,6 +189,10 @@ nav.shrink .navbar-brand {
   text-align: center;
 }
 
+#robot li{
+  font-size: 20px;
+}
+
 #robCarousel {
   background-color: transparent;
 }
@@ -373,11 +377,15 @@ footer hr {
     padding-bottom: 15%;
   }
 
+  #robot li{
+    font-size: 16px
+  }
+
   .rob15 p,
   .rob16 p,
   .rob17 p {
     text-align: justify;
-    padding: 0 5%;
+    padding: 0 5% 0 0;
   }
 
   #maker h2 {
