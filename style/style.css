@@ -75,7 +75,9 @@ nav.shrink .navbar-brand {
 }
 
 #particles-js {
-  background: #3c4664; /*no-repeat center center fixed;*/
+  background: linear-gradient(#3c4664, #3c3c3c);
+  background-attachment: fixed;
+  /*background: #3c4664; no-repeat center center fixed;*/
   height: 100%;
   width: 100%;
 }
