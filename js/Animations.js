@@ -164,17 +164,17 @@ sr.reveal(".cont", {
 sr.reveal(".linked", {
   duration: 1000,
   origin: "bottom",
-  distance: "100px"
+  distance: "50px"
 });
 sr.reveal(".git", {
   duration: 1000,
   delay: 250,
   origin: "bottom",
-  distance: "100px"
+  distance: "50px"
 });
 sr.reveal(".mail", {
   duration: 1000,
   delay: 500,
   origin: "bottom",
-  distance: "100px"
+  distance: "50px"
 });

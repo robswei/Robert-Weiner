@@ -129,7 +129,9 @@ nav.shrink .navbar-brand {
 }
 
 .mid {
-  border: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 #robot li{
@@ -196,7 +198,7 @@ nav.shrink .navbar-brand {
 }
 
 #robot li{
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #robCarousel {
@@ -288,6 +290,18 @@ nav.shrink .navbar-brand {
   padding: 15px;
 }
 
+.linked{
+  color: #0077B5;
+}
+
+.git{
+  color: #6E5495;
+}
+
+.mail{
+  color: #007ACC;
+}
+
 footer {
   padding: 10px;
   background-color: #3c4664;
@@ -299,6 +313,17 @@ footer hr {
   width: 75%;
 }
 
+
+
+
+/*/////////////////////////////////////////
+
+Mobile Support
+
+
+
+
+/////////////////////////////////////////*/
 @media only screen and (max-width: 768px) {
   .main,
   .exp,
@@ -351,9 +376,11 @@ footer hr {
     font-size: 20px;
   }
 
+  
   .mid {
     border-top: 2px solid #3c4664;
     width: 15%;
+    margin: 0 42.5%;
   }
 
   .upper {
