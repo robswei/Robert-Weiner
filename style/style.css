@@ -9,13 +9,9 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-nav {
-  transition: all ease 1s;
-}
-
 nav.shrink {
   background-color: #3c4664;
-  opacity: 0.85;
+  opacity: 0.95;
 
   transition: all ease 1s;
 }
@@ -36,22 +32,58 @@ nav.shrink .navbar-nav li a:hover {
 
 .navbar-default {
   background-color: transparent;
-  border: 0;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
-  border: 0;
-  background-color: #eee;
+    border: none;
+}
+
+.navbar-toggle span.icon-bar {
+    transition: all 0.5s;
+}
+
+.navbar-toggle span:nth-child(1) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggle span:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-toggle span:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed span:nth-child(1),
+.navbar-toggle.collapsed span:nth-child(3) {
+    transform: rotate(0);
+}
+
+.navbar-toggle.collapsed span:nth-child(2) {
+    opacity: 1;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #222;
+  background-color: #eee;
 }
 
 nav.shrink .navbar-brand {
   font-size: 20px;
   color: #eee;
   transition: all ease 1s;
+}
+
+nav.shrink .navbar-brand:hover {
+  font-size: 20px;
+  color: #222;
+  transition: all ease 0.25s;
 }
 
 .navbar .navbar-brand {
@@ -76,8 +108,6 @@ nav.shrink .navbar-brand {
 
 #particles-js {
   background: linear-gradient(#3c4664, #3c3c3c);
-  background-attachment: fixed;
-  /*background: #3c4664; no-repeat center center fixed;*/
   height: 100%;
   width: 100%;
 }
@@ -132,10 +162,6 @@ nav.shrink .navbar-brand {
   border: none;
   padding: 0;
   margin: 0;
-}
-
-#robot li{
-  font-size: 100px;
 }
 
 #maker .quad {
@@ -316,6 +342,7 @@ footer hr {
 
 
 
+
 /*/////////////////////////////////////////
 
 Mobile Support
@@ -324,7 +351,8 @@ Mobile Support
 
 
 /////////////////////////////////////////*/
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 995px) {
   .main,
   .exp,
   .project {
@@ -362,10 +390,13 @@ Mobile Support
     border: 0;
     background-color: #3c4664;
     opacity: 0.95;
+    text-align: center;
+
   }
 
   .navbar-default .navbar-nav li a {
     color: #eee;
+  
   }
 
   .navbar-default .navbar-nav li a:hover {
