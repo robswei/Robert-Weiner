@@ -21,7 +21,29 @@ nav.shrink .navbar-nav li a {
 }
 
 nav.shrink .navbar-nav li a:hover {
-  color: #222;
+  color: #999;
+  transition: all ease 0.25s;
+}
+
+nav.shrink .navbar-brand:hover {
+  font-size: 20px;
+  color: #eee;
+  transition: all ease 0.25s;
+}
+
+.navbar .navbar-brand {
+  color: transparent;
+  font-size: 20px;
+  transition: all ease 1s;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #eee;
+  transition: all ease 1s;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #999;
   transition: all ease 0.25s;
 }
 
@@ -36,40 +58,39 @@ nav.shrink .navbar-nav li a:hover {
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
-    border: none;
+  border: none;
 }
 
 .navbar-toggle span.icon-bar {
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .navbar-toggle span:nth-child(1) {
-    transform: rotate(45deg);
-    transform-origin: 10% 10%;
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
 }
 
 .navbar-toggle span:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 .navbar-toggle span:nth-child(3) {
-    transform: rotate(-45deg);
-    transform-origin: 10% 90%;
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
 }
 
 .navbar-toggle.collapsed span:nth-child(1),
 .navbar-toggle.collapsed span:nth-child(3) {
-    transform: rotate(0);
+  transform: rotate(0);
 }
 
 .navbar-toggle.collapsed span:nth-child(2) {
-    opacity: 1;
+  opacity: 1;
 }
-
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #eee;
@@ -81,34 +102,8 @@ nav.shrink .navbar-brand {
   transition: all ease 1s;
 }
 
-nav.shrink .navbar-brand:hover {
-  font-size: 20px;
-  color: #222;
-  transition: all ease 0.25s;
-}
-
-.navbar .navbar-brand {
-  color: transparent;
-  font-size: 20px;
-  transition: all ease 1s;
-}
-
-.navbar .navbar-brand:hover {
-  color: transparent;
-}
-
-.navbar-default .navbar-nav li a {
-  color: #eee;
-  transition: all ease 1s;
-}
-
-.navbar-default .navbar-nav li a:hover {
-  color: #222;
-  transition: all ease 0.25s;
-}
-
 #particles-js {
-  background: linear-gradient(#3c4664, #3c3c3c);
+  background: #3c4664;
   height: 100%;
   width: 100%;
 }
@@ -151,7 +146,7 @@ nav.shrink .navbar-brand:hover {
 
 .aboutMe hr {
   border-top: 2px solid #3c4664;
-  width: 95%;
+  width: 100%;
 }
 
 .upper {
@@ -177,7 +172,7 @@ nav.shrink .navbar-brand:hover {
   padding-bottom: 5%;
 }
 
-#work{
+#work {
   padding-bottom: 20%;
 }
 
@@ -224,7 +219,7 @@ nav.shrink .navbar-brand:hover {
   text-align: center;
 }
 
-#robot li{
+#robot li {
   font-size: 18px;
 }
 
@@ -317,16 +312,16 @@ nav.shrink .navbar-brand:hover {
   padding: 15px;
 }
 
-.linked{
-  color: #0077B5;
+.linked {
+  color: #0077b5;
 }
 
-.git{
-  color: #6E5495;
+.git {
+  color: #6e5495;
 }
 
-.mail{
-  color: #007ACC;
+.mail {
+  color: #007acc;
 }
 
 footer {
@@ -339,10 +334,6 @@ footer hr {
   border-top: 2px solid #3c4664;
   width: 75%;
 }
-
-
-
-
 
 /*/////////////////////////////////////////
 
@@ -377,7 +368,7 @@ Mobile Support
   }
 
   nav.shrink .navbar-nav li a:hover {
-    color: #222;
+    color: #aaa;
     transition: all ease 0.25s;
   }
 
@@ -392,12 +383,10 @@ Mobile Support
     background-color: #3c4664;
     opacity: 0.95;
     text-align: center;
-
   }
 
   .navbar-default .navbar-nav li a {
     color: #eee;
-  
   }
 
   .navbar-default .navbar-nav li a:hover {
@@ -408,7 +397,6 @@ Mobile Support
     font-size: 20px;
   }
 
-  
   .mid {
     border-top: 2px solid #3c4664;
     width: 15%;
@@ -428,7 +416,7 @@ Mobile Support
     text-align: center;
   }
 
-  #work{
+  #work {
     padding-bottom: 5%;
   }
 
@@ -442,8 +430,8 @@ Mobile Support
     padding-bottom: 15%;
   }
 
-  #robot li{
-    font-size: 16px
+  #robot li {
+    font-size: 16px;
   }
 
   .rob15 p,
