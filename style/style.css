@@ -25,6 +25,12 @@ nav.shrink .navbar-nav li a:hover {
   transition: all ease 0.25s;
 }
 
+nav.shrink .navbar-brand {
+  font-size: 20px;
+  color: #eee;
+  transition: all ease 1s;
+}
+
 nav.shrink .navbar-brand:hover {
   font-size: 20px;
   color: #eee;
@@ -32,6 +38,12 @@ nav.shrink .navbar-brand:hover {
 }
 
 .navbar .navbar-brand {
+  color: transparent;
+  font-size: 20px;
+  transition: all ease 1s;
+}
+
+.navbar .navbar-brand:hover {
   color: transparent;
   font-size: 20px;
   transition: all ease 1s;
@@ -96,11 +108,7 @@ nav.shrink .navbar-brand:hover {
   background-color: #eee;
 }
 
-nav.shrink .navbar-brand {
-  font-size: 20px;
-  color: #eee;
-  transition: all ease 1s;
-}
+
 
 #particles-js {
   background: #3c4664;
@@ -368,7 +376,7 @@ Mobile Support
   }
 
   nav.shrink .navbar-nav li a:hover {
-    color: #aaa;
+    color: 
     transition: all ease 0.25s;
   }
 
