@@ -26,10 +26,6 @@ sr.reveal(".abtText", {
 });
 
 //Experience Animations
-sr.reveal(".exp", {
-  duration: 2000,
-  origin: "bottom"
-});
 sr.reveal(".apple", {
   duration: 2000,
   origin: "bottom"
@@ -116,10 +112,6 @@ sr.reveal(".quadpic", {
 });
 
 //Projects Animation
-sr.reveal(".project", {
-  duration: 2000,
-  origin: "bottom"
-});
 sr.reveal(".pred", {
   duration: 2000,
   delay: 750,
