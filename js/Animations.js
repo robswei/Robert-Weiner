@@ -28,11 +28,11 @@ sr.reveal(".abtText", {
 //Experience Animations
 sr.reveal(".apple", {
   duration: 2000,
-  origin: "bottom"
+  origin: "left"
 });
 sr.reveal(".park", {
   duration: 2000,
-  origin: "bottom"
+  origin: "right"
 });
 sr.reveal(".irobot", {
   duration: 2000,
@@ -54,19 +54,9 @@ sr.reveal(".rob15", {
   origin: "bottom",
   distance: "300px"
 });
-sr.reveal(".hranim2", {
-  duration: 2000,
-  origin: "bottom",
-  distance: "300px"
-});
 sr.reveal(".rob16", {
   duration: 2000,
   delay: 250,
-  origin: "bottom",
-  distance: "300px"
-});
-sr.reveal(".hranim3", {
-  duration: 2000,
   origin: "bottom",
   distance: "300px"
 });
@@ -115,7 +105,7 @@ sr.reveal(".quadpic", {
 sr.reveal(".pred", {
   duration: 2000,
   delay: 750,
-  origin: "bottom"
+  origin: "left"
 });
 sr.reveal(".leftButton", {
   duration: 2000,
@@ -139,7 +129,7 @@ sr.reveal(".gitButton1", {
 });
 sr.reveal(".mrdcrobots", {
   duration: 2000,
-  origin: "bottom"
+  origin: "right"
 });
 sr.reveal(".gitButton2", {
   duration: 2000,

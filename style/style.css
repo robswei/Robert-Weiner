@@ -9,6 +9,9 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/*///////////////////////////////////
+NAVBAR
+///////////////////////////////////*/
 nav.shrink {
   background-color: #3c4664;
   opacity: 0.95;
@@ -108,7 +111,9 @@ nav.shrink .navbar-brand:hover {
   background-color: #eee;
 }
 
-
+/*//////////////////////////////////////////////
+LANDING PAGE
+//////////////////////////////////////////////*/
 
 #particles-js {
   background: #3c4664;
@@ -162,12 +167,6 @@ nav.shrink .navbar-brand:hover {
   width: 100%;
 }
 
-.mid {
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-
 #maker .quad {
   text-align: left;
 }
@@ -183,6 +182,10 @@ nav.shrink .navbar-brand:hover {
 #work {
   padding-bottom: 20%;
 }
+
+/*//////////////////////////////////////////////
+EXPERIENCE AND PROJECTS
+//////////////////////////////////////////////*/
 
 .exp,
 .project {
@@ -225,10 +228,6 @@ nav.shrink .navbar-brand:hover {
 .apple,
 .park {
   text-align: center;
-}
-
-#robot li {
-  font-size: 18px;
 }
 
 #robCarousel {
@@ -290,7 +289,7 @@ nav.shrink .navbar-brand:hover {
   filter: none !important;
   position: absolute;
   top: 50%; /* pushes the icon in the middle of the height */
-  z-index: 5;
+  z-index: 1;
   display: inline-block;
   color: #3c4664;
 }
@@ -303,9 +302,83 @@ nav.shrink .navbar-brand:hover {
   text-align: right;
 }
 
+.rob15 .btn,
+.rob16 .btn,
+.rob17 .btn,
+.leftButton button,
+.gitButton1 button,
+.gitButton2 button {
+  padding: 0.5em 2em;
+  font-size: 18px;
+  color: #3c4664;
+  background-color: transparent;
+  border: 3px solid #3c4664;
+  border-radius: 25px;
+}
+
+.rob15 .btn:hover,
+.rob16 .btn:hover,
+.rob17 .btn:hover,
+.leftButton button:hover,
+.gitButton1 button:hover,
+.gitButton2 button:hover {
+  color: #fff;
+  background-color: #3c4664;
+  border: 3px solid #3c4664;
+}
+
 .rightButton {
   padding-top: 15px;
 }
+
+.rightButton button {
+  padding: 0.5em 2em;
+  font-size: 18px;
+  color: #3c4664;
+  background-color: transparent;
+  border: 3px solid #cb5c54;
+  border-radius: 25px;
+}
+
+.rightButton button:hover {
+  color: #fff;
+  background-color: #cb5c54;
+  border: 3px solid #cb5c54;
+}
+
+/*//////////////////////////////////////////////
+MODALS
+//////////////////////////////////////////////*/
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+.inner {
+  display: inline-block;
+  padding: 5%;
+}
+
+.modal {
+  background-color: rgba(24, 27, 39, 0.5);
+}
+
+.modal-content {
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  width: 95%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.modal-header {
+  background: #3c4664;
+  padding: 15px;
+  color: #fff;
+}
+
+/*//////////////////////////////////////////////
+CONNECT
+//////////////////////////////////////////////*/
 
 #connect {
   background-color: #dcdcdc;
@@ -352,7 +425,7 @@ Mobile Support
 
 /////////////////////////////////////////*/
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1028px) {
   .main,
   .exp,
   .project {
@@ -363,6 +436,9 @@ Mobile Support
     font-size: 300%;
   }
 
+  /*//////////////////////////////////////////////
+  NAVBAR
+  //////////////////////////////////////////////*/
   nav.shrink {
     background-color: #3c4664;
     opacity: 0.95;
@@ -401,15 +477,11 @@ Mobile Support
     color: #222;
   }
 
+  /*//////////////////////////////////////////////
+  EXPERIENCE AND PROJECTS
+  //////////////////////////////////////////////*/
   .ptext {
     font-size: 20px;
-  }
-
-  .mid {
-    border-top: 2px solid #3c4664;
-    width: 15%;
-    margin: 0 42.5%;
-    padding-bottom: 2.5%;
   }
 
   .upper {
@@ -441,13 +513,6 @@ Mobile Support
 
   #robot li {
     font-size: 16px;
-  }
-
-  .rob15 p,
-  .rob16 p,
-  .rob17 p {
-    text-align: justify;
-    padding: 0 10% 0 0;
   }
 
   #maker h2 {
@@ -489,4 +554,17 @@ Mobile Support
   #robCarousel .carousel-control.right {
     color: #fff;
   }
+
+  .rob15,
+  .rob16,
+  .rob17 {
+    width: 100%;
+    text-align: center;
+    padding: 2.5%;
+  }
+
+  .modal{
+    padding-left: 2.5%;
+  }
+
 }
