@@ -447,6 +447,10 @@ Mobile Support
     background-attachment: scroll;
   }
 
+  #main{
+    padding-left: 5%;
+  }
+
   #main h1 {
     font-size: 300%;
   }
